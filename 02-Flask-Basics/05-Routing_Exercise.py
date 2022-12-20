@@ -8,7 +8,7 @@ app = Flask(__name__)
 def index():
     # Welcome Page
     # Create a generic welcome page.
-    return "<h1>Welcome to Pig Latin Translator for your Dog name! Go to /pig_latin/<name> to see the translation.</h1>"
+    return "<h1>Welcome to Pig Latin Translator for your Dog name! Go to /pig_latin/name to see the translation.</h1>"
 
 @app.route('/pig_latin/<name>') # Fill this in!
 def puppylatin(name):
